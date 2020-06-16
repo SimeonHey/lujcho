@@ -1,0 +1,6 @@
+"C:\Program Files\Python38\pythonw.exe" "C:\Users\Simeon Stoykov\Documents\Developing\lujcho\watcher.py" "C:\Users\Simeon Stoykov\Documents\Developing\lujcho\monitor-1.png"
+
+
+
+
+taskkill /IM pythonw.exe /F
