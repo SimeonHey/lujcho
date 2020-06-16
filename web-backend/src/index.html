@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <!-- <meta http-equiv="refresh" content="1" /> -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+
+  <body>
+    <h1 style="height: 5%;">
+      Последно обновена на: <span id="datetime"></span>
+    </h1>
+    <script>
+      var dt = new Date();
+      const str = dt.toLocaleString();
+      document.getElementById('datetime').innerHTML = str.substring(12);
+    </script>
+    <img src="./monitor-1.png" height="90%" />
+  </body>
+</html>
