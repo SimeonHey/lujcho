@@ -10,11 +10,12 @@ def upload_latest(filename):
     requests.post(url, files=files)
 
 target = sys.argv[1]
+to_sleep = int(sys.argv[2])
 
 with mss() as sct:
     while True:
         filename = sct.shot(output=target)
         upload_latest(filename)
-	
-        sleep(1)
+
+        sleep(to_sleep)
 
