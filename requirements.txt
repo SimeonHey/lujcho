@@ -1,1 +1,2 @@
 mss==5.1.0
+requests>=1
